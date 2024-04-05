@@ -119,13 +119,13 @@
     
 
     <section id="ban" class="flex flex-col gap-10 text-noir px-10 pb-10 pt-32">
-      <div class="flex flex-col lg:flex-row gap-10 text-noir">
-        <img class="flex lg:hidden" src="<?php the_field('her_img'); ?>" alt=""> 
+      <div class="flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:px-40 gap-10 text-noir">
+        <img class="flex w-fit lg:hidden" src="<?php the_field('her_img'); ?>" alt=""> 
         <div class="flex flex-col gap-10 text-noir lg:w-2/5">
           <h1 class="font-titre text-[48px] md:text-[64px] text-saumon"><?php the_field('her_titre'); ?></h1>
           <p class="md:text-[20px] lg:text-[24px]"><?php the_field('her_desc'); ?></p>
         </div>
-        <img class="hidden lg:flex lg:w-3/5" src="<?php the_field('her_img'); ?>" alt=""> 
+        <img class="hidden lg:flex w-fit lg:w-96" src="<?php the_field('her_img'); ?>" alt=""> 
       </div>
         
         <div class="flex justify-center">

@@ -27,7 +27,7 @@
         <li><a href=""><img class="w-10" src="<?php the_field('icon_x'); ?>" alt="lien vers notre X"></a></li>
         <li><a href=""><img class="w-10" src="<?php the_field('icon_insta'); ?>" alt="lien vers notre Insta"></a></li>
         </ul>
-        <p class="text-center text-noir md:text-[20px] lg:text-[24px]"><?php the_field('copyright_site'); ?></p>
+        <p class="text-center text-noir md:text-[20px]"><?php the_field('copyright_site'); ?></p>
         <a class="absolute right-8 top-14 md:right-10 md:top-20 rounded-full w-12 h-12 bg-db hover:bg-saumon duration-300 text-blanc text-4xl flex justify-center items-center"
         href="#ban"><ion-icon name="arrow-up-outline"></ion-icon></a>
         
